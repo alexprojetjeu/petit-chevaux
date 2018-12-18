@@ -1,0 +1,70 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define LIGNE 15
+#define COLONNE 15
+
+#define BLEUCLAIR "\033[01;34m"
+#define ROUGE "\033[00;31m"
+#define BLEU "\033[00;34m"
+#define SOULIGNE "\033[04m"
+#define NORMAL "\033[00m"
+#define RED     "\x1b[31m"
+#define GREEN   "\x1b[32m"
+#define YELLOW  "\x1b[33m"
+#define BLUE    "\x1b[34m"
+#define RESET   "\x1b[0m"
+#define RESET1  "\e[0m"
+#define FOND_BLACK "\x1b[40m"
+#define FOND_RED "\e[48;5;196m"
+#define FOND_RED1 "\e[48;5;088m"
+#define FOND_GREEN "\x1b[42m"
+#define FOND_GREEN1 "\e[48;5;022m"
+#define FOND_YELLOW "\e[48;5;214m"
+#define FOND_YELLOW1 "\e[48;5;220m"
+#define FOND_BLUE "\x1b[44m"
+#define FOND_BLUE1 "\e[48;5;027m"
+#define FOND_PURPLE "\x1b[45m"
+#define FOND_WHITE "\x1b[47m"
+#define TEST "\e[4;34m"
+
+
+
+int main (){
+	
+
+	int i;
+	int j;
+
+	printf ("\n");
+	printf ("\n");
+	int plateau [LIGNE][COLONNE] = {
+		{'0','0','0','0','0','0','J','B','B','0','0','0','0','0','0'},
+		{'0','0','0','0','0','0','J','1','B','0','0','0','0','0','0'},
+		{'0','0','0','0','0','0','J','2','B','0','0','0','0','0','0'},
+		{'0','0','0','0','0','0','J','3','B','0','0','0','0','0','0'},
+		{'0','0','0','0','0','0','J','4','B','0','0','0','0','0','0'},
+		{'0','0','0','0','0','0','J','5','B','0','0','0','0','0','0'},
+		{'J','J','J','J','J','J','J','6','B','B','B','B','B','B','B'},
+		{'J','1','2','3','4','5','6','W','6','5','4','3','2','1','R'},
+		{'V','V','V','V','V','V','V','6','R','R','R','R','R','R','R'},
+		{'0','0','0','0','0','0','V','5','R','0','0','0','0','0','0'},
+		{'0','0','0','0','0','0','V','4','R','0','0','0','0','0','0'},
+		{'0','0','0','0','0','0','V','3','R','0','0','0','0','0','0'},
+		{'0','0','0','0','0','0','V','2','R','0','0','0','0','0','0'},
+		{'0','0','0','0','0','0','V','1','R','0','0','0','0','0','0'},
+		{'0','0','0','0','0','0','V','V','R','0','0','0','0','0','0'}};
+
+
+
+
+
+
+/*	    for (int i=0 ; i<TAILLE;i++){
+		for (int k=0;k<TAILLE;k++){
+		     printf("  %c  ",plateau[i][k]);
+		}
+		printf("\n");
+	    }
+*/
+	return 0;
+}
